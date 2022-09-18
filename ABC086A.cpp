@@ -13,6 +13,5 @@ int main() {
         printf("%s\n", odd.c_str());
     }
 
-
     return 0;
 }
