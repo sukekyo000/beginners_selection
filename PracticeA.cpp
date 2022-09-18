@@ -2,10 +2,10 @@
 using namespace std;
 
 int main() {
-    int a , b;
-    char s;
+    int a , b, c;
+    char s[1000];
     
-    scanf("%d %d", &a, &b);
+    scanf("%d %d %d %s", &a, &b, &c, s);
 
     printf("%d %s\n", a + b + c, s);
 
